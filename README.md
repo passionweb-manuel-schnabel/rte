@@ -4,7 +4,9 @@
 
 1.0.0: Configure the RTE with minimal extended settings.
 
-1.1.0: Added custom style buttons. 
+1.1.0: Added custom style buttons.
+
+1.2.0: Added custom plugin JS.
 
 ## Installation
 
