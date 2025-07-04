@@ -8,6 +8,11 @@ editor:
     contentsCss: ["EXT:bootstrap_package/Resources/Public/Css/bootstrap5-rte.min.css", "EXT:rte_configuration/Resources/Public/Css/rte.css"]
 
     stylesSet:
+      - { name: "Button Default", element: "a", attributes: { 'class': 'btn btn-default' } }
+      - { name: "Button Primary", element: "a", attributes: { 'class': 'btn btn-primary' } }
+      - { name: "Button Secondary", element: "a", attributes: { 'class': 'btn btn-secondary' } }
+      - { name: "Button Special", element: "a", attributes: { 'class': 'btn btn-special' } }
+
       - { name: "Lowercased text", element: "span", attributes: { 'class': 'text-lowercase' } }
       - { name: "Uppercased text", element: "span", attributes: { 'class': 'text-uppercase' } }
       - { name: "Capitalized text", element: "span", attributes: { 'class': 'text-capitalize' } }

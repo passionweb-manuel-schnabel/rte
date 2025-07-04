@@ -4,6 +4,8 @@
 
 1.0.0: Configure the RTE with minimal extended settings.
 
+1.1.0: Added custom style buttons. 
+
 ## Installation
 
 Add via composer:
