@@ -7,9 +7,6 @@ editor:
   config:
     contentsCss: ["EXT:bootstrap_package/Resources/Public/Css/bootstrap5-rte.min.css", "EXT:rte_configuration/Resources/Public/Css/rte.css"]
 
-    importModules:
-      - { module: 'EXT:rte_configuration/Resources/Public/JavaScript/codebreak.js', exports: [ 'Codebreak' ] }
-
     stylesSet:
       - { name: "Button Default", element: "a", attributes: { 'class': 'btn btn-default' } }
       - { name: "Button Primary", element: "a", attributes: { 'class': 'btn btn-primary' } }

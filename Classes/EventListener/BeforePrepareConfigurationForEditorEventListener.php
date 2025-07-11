@@ -8,7 +8,7 @@ use TYPO3\CMS\Core\Attribute\AsEventListener;
 use TYPO3\CMS\RteCKEditor\Form\Element\Event\BeforePrepareConfigurationForEditorEvent;
 
 #[AsEventListener(
-    identifier: 'codebreak/before-prepare-configuration-for-editor-event-listener',
+    identifier: 'tx-rte-configuration/before-prepare-configuration-for-editor-event-listener',
     event: BeforePrepareConfigurationForEditorEvent::class,
 )]
 class BeforePrepareConfigurationForEditorEventListener
@@ -17,6 +17,6 @@ class BeforePrepareConfigurationForEditorEventListener
     {
         //SYSEXT:cms-rte-ckeditor/Classes/Form/Element/RichTextElement.php dispatched in prepareConfigurationForEditor function
         $configuration = $event->getConfiguration();
-        // Add custom configuration for the RTE here
+        // Add your plugin configuration here later
     }
 }
