@@ -8,7 +8,9 @@
 
 1.2.0: Added before and after events for RTE configuration.
 
-1.3.0: Implemented custom Plugin JS 
+1.3.0: Implemented custom Plugin JS
+
+1.4.0: Integrated plugin JS through RTE.yaml and BeforePrepareConfigurationForEditorEventListener
 
 ## Installation
 

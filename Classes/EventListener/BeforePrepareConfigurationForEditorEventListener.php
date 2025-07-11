@@ -17,6 +17,11 @@ class BeforePrepareConfigurationForEditorEventListener
     {
         //SYSEXT:cms-rte-ckeditor/Classes/Form/Element/RichTextElement.php dispatched in prepareConfigurationForEditor function
         $configuration = $event->getConfiguration();
-        // Add your plugin configuration here later
+        $configuration['importModules'][] = [
+            "module" => '@passionweb/rte-configuration/codebreak-plugin.js',
+            "exports" => ['CodebreakPlugin']
+        ];
+        $configuration['toolbar']['items'][] = 'CodebreakPlugin';
+        $event->setConfiguration($configuration);
     }
 }
