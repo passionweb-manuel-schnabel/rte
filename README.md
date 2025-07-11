@@ -6,7 +6,7 @@
 
 1.1.0: Added custom style buttons.
 
-1.2.0: Added custom plugin JS.
+1.2.0: Added before and after events for RTE configuration.
 
 ## Installation
 
