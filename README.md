@@ -8,6 +8,8 @@
 
 1.2.0: Added before and after events for RTE configuration.
 
+1.3.0: Implemented custom Plugin JS 
+
 ## Installation
 
 Add via composer:
